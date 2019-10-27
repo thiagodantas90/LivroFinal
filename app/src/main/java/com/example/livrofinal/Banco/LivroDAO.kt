@@ -10,6 +10,6 @@ interface LivroDAO{
     @Insert
     fun inserir(LivroModelo:LivroModelo):Long
 
-    @Query("SELECT * FROM bancoLivro")
+    @Query("SELECT * FROM `bancoLivro.sqlite`")
     fun listAll():List<LivroModelo>
 }

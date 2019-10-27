@@ -5,7 +5,7 @@ import androidx.room.Entity
 import androidx.room.Ignore
 import androidx.room.PrimaryKey
 
-@Entity(tableName = "bancoLivro")
+@Entity(tableName = "bancoLivro.sqlite")
 data class LivroModelo(
     var TituloLivro:String,
     var AutorLivro:String,
@@ -15,5 +15,6 @@ data class LivroModelo(
     @PrimaryKey(autoGenerate = true)
     var idLivro:Long = 0
     @Ignore
-    var imagem:Bitmap? = null
+    var imagem: Bitmap? = null
+
 }
