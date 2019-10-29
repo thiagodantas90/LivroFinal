@@ -24,7 +24,13 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="casual"
+                    android:text="Titulo: "
+                    android:textSize="25dp" />
                 <TextView
                     android:id="@+id/tituloLista"
                     android:layout_width="match_parent"
@@ -33,12 +39,19 @@
                     android:fontFamily="casual"
                     android:text="Titulo"
                     android:textSize="25dp" />
+
             </TableRow>
 
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="casual"
+                    android:text="Autor: "
+                    android:textSize="25dp" />
                 <TextView
                     android:id="@+id/autorLista"
                     android:layout_width="match_parent"
@@ -53,7 +66,13 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="casual"
+                    android:text="Ano: "
+                    android:textSize="25dp" />
                 <TextView
                     android:id="@+id/anoLista"
                     android:layout_width="match_parent"
