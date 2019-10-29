@@ -8,7 +8,7 @@ import com.example.livrofinal.Modelos.LivroModelo
 @Dao
 interface LivroDAO{
     @Insert
-    fun inserir(LivroModelo:LivroModelo):Long
+    fun adicionar(LivroModelo:LivroModelo):Long
 
     @Query("SELECT * FROM `bancoLivro.sqlite`")
     fun listAll():List<LivroModelo>

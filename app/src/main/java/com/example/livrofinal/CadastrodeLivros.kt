@@ -26,17 +26,18 @@ class CadastrodeLivros : AppCompatActivity() {
     }
 
     fun adiconarLivro(v : View){
-        //db.LivroDao().inserir(LivroModelo(tituloCad.toString(),autorCad.toString(),anoLivroCad.toString().toInt(),starCad.rating))
-        db.LivroDao().inserir(
+       // db.LivroDao().adicionar(LivroModelo("thiago","dantas","1990","45"))
+        db.LivroDao().adicionar(
             LivroModelo(
-                tituloCad.toString(),autorCad.toString(),
-                anoLivroCad.toString().toInt(),
-                starCad.toString().toFloat()
+                tituloCad.editableText.toString(),
+                autorCad.editableText.toString(),
+                anoLivroCad.editableText.toString(),
+                starCad.rating.toString()
+                //starCad.rating.toString()
 
             ))
 
         Toast.makeText(this, "Adicionado com Sucesso !", Toast.LENGTH_SHORT).show()
-
     }
     fun cancelarAdicionar(v: View){
         finish()
