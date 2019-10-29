@@ -31,8 +31,8 @@ class CadastrodeLivros : AppCompatActivity() {
             LivroModelo(
                 tituloCad.editableText.toString(),
                 autorCad.editableText.toString(),
-                anoLivroCad.editableText.toString(),
-                starCad.rating.toString()
+                anoLivroCad.editableText.toString().toInt(),
+                starCad.rating
                 //starCad.rating.toString()
 
             ))

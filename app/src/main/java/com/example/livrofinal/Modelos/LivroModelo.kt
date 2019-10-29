@@ -9,8 +9,8 @@ import androidx.room.PrimaryKey
 data class LivroModelo(
     var TituloLivro:String,
     var AutorLivro:String,
-    var AnoLivro:String,
-    var EstrelasLivro:String){
+    var AnoLivro:Int,
+    var EstrelasLivro:Float){
 
     @PrimaryKey(autoGenerate = true)
     var idLivro:Long = 0
