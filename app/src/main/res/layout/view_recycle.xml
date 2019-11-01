@@ -15,18 +15,16 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
                 android:fontFamily="casual"
                 android:text="Titulo: "
-                android:textSize="25dp" />
+                android:textSize="15dp" />
             <TextView
                 android:id="@+id/tituloListaViewRecy"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
                 android:fontFamily="casual"
                 android:text="Titulo"
-                android:textSize="25dp" />
+                android:textSize="15dp" />
 
         </TableRow>
 
@@ -36,18 +34,16 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
                 android:fontFamily="casual"
                 android:text="Autor: "
-                android:textSize="25dp" />
+                android:textSize="15dp" />
             <TextView
                 android:id="@+id/autorListaViewRecy"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
                 android:fontFamily="casual"
                 android:text="Autor"
-                android:textSize="25dp" />
+                android:textSize="15dp" />
 
         </TableRow>
 
@@ -57,18 +53,16 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
                 android:fontFamily="casual"
                 android:text="Ano: "
-                android:textSize="25dp" />
+                android:textSize="15dp" />
             <TextView
                 android:id="@+id/anoListaViewRecy"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
                 android:fontFamily="casual"
                 android:text="Ano"
-                android:textSize="25dp" />
+                android:textSize="15dp" />
         </TableRow>
         <TableRow
             android:layout_width="match_parent"
@@ -76,18 +70,16 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
                 android:fontFamily="casual"
                 android:text="Estrelas: "
-                android:textSize="25dp" />
+                android:textSize="15dp" />
             <TextView
                 android:id="@+id/astarListaViewRecy"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
                 android:fontFamily="casual"
                 android:text="Estrelas"
-                android:textSize="25dp" />
+                android:textSize="15dp" />
         </TableRow>
 
     </TableLayout>

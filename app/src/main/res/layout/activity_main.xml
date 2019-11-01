@@ -31,7 +31,8 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:fontFamily="casual"
-        android:text="Cadastrar Livros" />
+        android:text="Cadastrar Livros"
+        android:onClick="adicionar" />
 
     <Button
         android:id="@+id/btnListar"
@@ -41,7 +42,8 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:fontFamily="casual"
-        android:text="Listar Livros" />
+        android:text="Listar Livros"
+        android:onClick="listarLivros" />
 
     <Button
         android:id="@+id/btnViewList"
@@ -51,7 +53,8 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:fontFamily="casual"
-        android:text="View de Livros" />
+        android:text="View de Livros"
+        android:onClick="viewLivros" />
 
     <Button
         android:id="@+id/btnViewRecy"
@@ -61,7 +64,8 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:fontFamily="casual"
-        android:text="Lista Recycle" />
+        android:text="Lista Recycle"
+        android:onClick="recycleLivros" />
     <Button
         android:id="@+id/vie"
         android:layout_width="match_parent"
