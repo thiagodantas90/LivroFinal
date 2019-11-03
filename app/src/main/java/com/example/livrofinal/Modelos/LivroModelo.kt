@@ -17,4 +17,5 @@ data class LivroModelo(
     @Ignore
     var imagem: Bitmap? = null
 
+
 }

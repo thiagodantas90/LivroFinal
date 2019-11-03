@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.livrofinal.DragDrop.DragDropView
 import com.example.livrofinal.Lista.telaListarLivros
 import com.example.livrofinal.View.viewLivro
 import com.example.livrofinal.ViewRecycle.ViewRecy
@@ -32,5 +33,9 @@ class MainActivity : AppCompatActivity() {
     fun recycleLivros(v: View){
         val d = Intent(this, ViewRecy::class.java)
         startActivity(d)
+    }
+    fun gridview(v: View){
+        val e = Intent (this, DragDropView::class.java)
+        startActivity(e)
     }
 }
