@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DragDrop.newdrag"></activity>
+        <activity android:name=".PageView.pageViewLivro"></activity>
+        <activity android:name=".DragDrop.newdrag" />
         <activity android:name=".DragDrop.DragDropView" />
         <activity android:name=".ViewRecycle.ViewRecy" />
         <activity android:name=".View.viewLivro" />

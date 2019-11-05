@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import com.example.livrofinal.DragDrop.DragDropView
 import com.example.livrofinal.Lista.telaListarLivros
+import com.example.livrofinal.PageView.pageViewLivro
 import com.example.livrofinal.View.viewLivro
 import com.example.livrofinal.ViewRecycle.ViewRecy
 import kotlinx.android.synthetic.main.activity_main.*
@@ -37,5 +38,9 @@ class MainActivity : AppCompatActivity() {
     fun gridview(v: View){
         val e = Intent (this, DragDropView::class.java)
         startActivity(e)
+    }
+    fun pageView(v: View){
+        val f = Intent (this, pageViewLivro::class.java )
+        startActivity(f)
     }
 }
