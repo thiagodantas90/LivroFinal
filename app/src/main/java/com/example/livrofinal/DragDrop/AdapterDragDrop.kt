@@ -46,7 +46,6 @@ class AdapterDragDrop (var c:Context, var livro:MutableList<LivroModelo>): Recyc
             holder.undoButton.setOnClickListener {
                 // usou o undo, remover a pendingRennable
                 val pendingRemovalRunnable = pendingRunnables[livroEscolhido]
-                Log.i("AULA17", "CLICOU")
                 pendingRunnables.remove(livroEscolhido)
                 if (pendingRemovalRunnable != null) {
                     handler.removeCallbacks(pendingRemovalRunnable)

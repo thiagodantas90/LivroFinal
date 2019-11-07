@@ -2,34 +2,88 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <TextView
-        android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_shadow_start_color">
+    <TableLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="7"
-        android:fontFamily="casual"
-        android:layout_marginLeft="10dp"
-        android:id="@+id/TituloPageView" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="7"
-        android:fontFamily="casual"
-        android:layout_marginLeft="10dp"
-        android:id="@+id/autorPageView" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="7"
-        android:fontFamily="casual"
-        android:layout_marginLeft="10dp"
-        android:id="@+id/anoPageView" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="7"
-        android:fontFamily="casual"
-        android:layout_marginLeft="10dp"
-        android:id="@+id/estrelasPageView" />
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:fontFamily="casual"
+                android:textSize="25dp"
+                android:layout_marginLeft="10dp"
+                android:text="Titulo: " />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:fontFamily="casual"
+                android:textSize="25dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/TituloPageView" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:fontFamily="casual"
+                android:textSize="25dp"
+                android:layout_marginLeft="10dp"
+                android:text="Autor: " />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:fontFamily="casual"
+                android:textSize="25dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/autorPageView" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:fontFamily="casual"
+                android:textSize="25dp"
+                android:layout_marginLeft="10dp"
+                android:text="Ano: "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:fontFamily="casual"
+                android:textSize="25dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/anoPageView" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:fontFamily="casual"
+                android:textSize="25dp"
+                android:layout_marginLeft="10dp"
+                android:text="Estrelas: " />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:fontFamily="casual"
+                android:textSize="25dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/estrelasPageView" />
+        </TableRow>
+
+    </TableLayout>
 
 </LinearLayout>

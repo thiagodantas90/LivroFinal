@@ -13,5 +13,6 @@
         android:layout_height="wrap_content"
         android:layout_weight="20"
         android:layout_marginLeft="10dp"
+        android:textSize="10dp"
         android:id="@+id/nomeFruta" />
 </LinearLayout>

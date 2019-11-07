@@ -42,7 +42,6 @@ class DragDropView : AppCompatActivity() {
         {
 
             override fun onMove(recyclerView: RecyclerView, viewHolder: RecyclerView.ViewHolder, target: RecyclerView.ViewHolder): Boolean {
-                Log.i("AULA17", "OnMove")
                 //é usado para operações drag and drop
                 val fromPosition = viewHolder.adapterPosition
                 val toPosition = target.adapterPosition
@@ -75,13 +74,11 @@ class DragDropView : AppCompatActivity() {
                     // not interested in those
                     return
                 }
-                Log.i("AULA17", "dx = $dX")
                 // Here, if dX > 0 then swiping right.
                 // If dX < 0 then swiping left.
                 // If dX == 0 then at at start position.
                 // draw red background
                 if (dX < 0) {
-                    Log.i("AULA17", "dX < 0")
                     background.setBounds(
                         (itemView.right + dX).toInt(),
                         itemView.top,
@@ -89,7 +86,6 @@ class DragDropView : AppCompatActivity() {
                         itemView.bottom
                     )
                 } else if (dX > 0) {
-                    Log.i("AULA17", "dX > 0")
                     background.setBounds(
                         itemView.left,
                         itemView.top,

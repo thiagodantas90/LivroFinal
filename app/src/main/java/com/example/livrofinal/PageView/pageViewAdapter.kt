@@ -4,6 +4,7 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.RatingBar
 import android.widget.TextView
 import androidx.viewpager.widget.PagerAdapter
 import com.example.livrofinal.Modelos.LivroModelo
@@ -17,10 +18,14 @@ class pageViewAdapter(var context: Context, var Livros:List<LivroModelo>):PagerA
         val view = LayoutInflater.from(context).inflate(R.layout.pageviewinflater,container ,false)
 
         val titulo:TextView = view.findViewById(R.id.TituloPageView)
+        titulo.setText(Livros[position].TituloLivro)
         val autor:TextView = view.findViewById(R.id.autorPageView)
+        autor.setText(Livros[position].AutorLivro)
         val ano:TextView = view.findViewById(R.id.anoPageView)
+        ano.setText(Livros[position].AnoLivro.toString())
         val estrelas:TextView = view.findViewById((R.id.estrelasPageView))
-
+        estrelas.setText(Livros[position].EstrelasLivro.toString())
+        container.addView(view)
         return  view
     }
 
